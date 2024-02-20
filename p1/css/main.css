@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	color: ghostwhite;
+	font-family: unset;
+}
+a: visited {
+	color: orangered;
+}
+a: hover {
+	color: mediumblue;
+	border-bottom: 10px solidwhite;
+}
+a: active {
+	color: darkred;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+
+}
