@@ -1,5 +1,5 @@
 html{
-	background-color: whitesmoke;
+	background-color: #D6D6E1;
 	margin-left: 70px;
 	margin-top: 20px;
 	margin-right: 70px;
@@ -10,7 +10,6 @@ h1 {
 	line-height: 10px;
 	margin-bottom: 90px;
 	color: skyblue;
-
 }
 h2 {
   font-family: fantasy;
@@ -24,15 +23,12 @@ h3 {
 	font-style: italic;
 	font-size: 30px;
 	line-height: 10px;
-	margin-bottom: 100px;
-	
+	margin-bottom: 100px;	
 }
-
 ul {
 	color: black;
 	list-style-type: none;
 }
-
 a:visited {
 	color:black;
 }
@@ -42,7 +38,6 @@ a:link {
 a:hover {
 	color:darkred;
 }
-
 body {
 	font-size: 25px;
 	font-family: serif;
@@ -53,5 +48,4 @@ p {
 	font-size: 16px;
 	font-family:sans-serif;
 	line-height: 35px;
-
 }
