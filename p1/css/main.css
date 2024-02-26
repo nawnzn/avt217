@@ -10,3 +10,13 @@ h1 {
 	line-height: 10px;
 	margin-bottom: 90px;
 	color: skyblue;
+}
+a:visited {
+	color:black;
+}
+a:link {
+	color:black;
+}
+a:hover {
+	color:darkred;
+}
