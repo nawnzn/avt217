@@ -4,10 +4,10 @@ body {
 	font-family: unset;
 }
 a: visited {
-	color: orangered;
+	color: whitesmoke;
 }
 a: hover {
-	color: mediumblue;
+	color: black;
 	border-bottom: 10px solidwhite;
 }
 a: active {
@@ -20,3 +20,9 @@ h2 {
 	text-align: center;
 
 }
+p {
+	margin-left: 150px ;
+	margin-right: 300px ;
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 35px;

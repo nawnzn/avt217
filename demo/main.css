@@ -1,0 +1,21 @@
+body {
+	background-color: black;	
+	margin: 0;
+}
+h1 {
+	color: skyblue;
+	margin-top: 400px;
+	text-align: center;
+	font-size: 60;
+}
+@media screen and (min-width: 900px){
+	body{
+		background-color: whitesmoke;
+	}
+	h1 {
+	color: darkred;
+	margin-top: 500px;
+	text-align: center;
+	font-size: 60;
+}
+}
