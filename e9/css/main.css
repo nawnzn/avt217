@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+}
+body{
+		#pattern1{ background-color: blue;
+}
+}
+main {
+	width: 120vw;
+}
+#pattern1{
+	.p1-1{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	float: left;
+	margin: -5px;
+}
+.p1-2{
+	width: 150px;
+	height: 150px;
+	background-color: darkgray;
+	float: left;
+	opacity: .8;
+	margin: -5px;
+}
+}
