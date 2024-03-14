@@ -2,26 +2,70 @@
 	box-sizing: border-box;
 }
 body{
-		#pattern1{ background-color: blue;
-}
-}
-main {
 	width: 120vw;
+	background-color: lightskyblue;
 }
-#pattern1{
-	.p1-1{
-	width: 150px;
-	height: 150px;
-	background-color: black;
+#container{
+	width: 120vw;
+	margin-left: -10vw;
+}
+#pattern1 .p1-1{
+	width: 50px;
+	height: 100px;
+	background-color: skyblue;
 	float: left;
+	opacity: 0;
 	margin: -5px;
 }
-.p1-2{
-	width: 150px;
-	height: 150px;
-	background-color: darkgray;
+#pattern1 .p1-2{
+	width: 7px;
+	height: 300px;
+	background-color: whitesmoke;
+	float: left;
+	margin: -5px;
+	border: 10px solid black;
+	transform: rotate(45deg);
+	border-radius: 10px;
+}
+#pattern2 .p2-1{
+	width: 50px;
+	height: 50px;
+	background-color: black;
 	float: left;
 	opacity: .8;
 	margin: -5px;
 }
+#pattern2 .p2-2{
+	width: 50px;
+	height: 50px;
+	background-color: skyblue;
+	float: left;
+	opacity: .8;
+	margin: -5px;
+}
+
+
+	.p3-1{
+	width: 150px;
+	height: 150px;
+	background-color: yellowgreen;
+	float: left;
+	opacity: .8;
+	margin: -5px;
+}
+	.p3-2{
+	width: 150px;
+	height: 150px;
+	background-color: hotpink;
+	float: left;
+	opacity: .8;
+	margin: -5px;
+}
+	.p3-3{
+	width: 150px;
+	height: 150px;
+	background-color: lightskyblue;
+	float: left;
+	opacity: .8;
+	margin: -5px;
 }
