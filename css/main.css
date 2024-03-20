@@ -7,6 +7,7 @@ html {
 body {
 	background-color: ghostwhite;
 	font-family: 'Rubik', sans-serif;
+	color: #353535;
 }
 
 header{
@@ -61,12 +62,11 @@ li{
     font-size: 3rem;
 }
 }
-
-a:hover, a:active {
-  color: ghostwhite;
-}
 a:link, a:visited {
-	color: darkblue;
-	text-decoration-line: underline; color: black;
+	color: #353535;
 }
+a:hover, a:active {
+  color: #C33149;
+}
+
 
