@@ -1,4 +1,37 @@
+*{
+	box-sizing: border-box;
+}
+html {
+	fontsize:16px;
+}
 body {
 	background-color: ghostwhite;
+	text-align: center;
 	font-family: 'Rubik', sans-serif;
+}
+
+header{
+	width: 75vw;
+	margin: 25px; 
+	background-color: skyblue;
+}
+
+main {
+	width: 75vw;
+	margin: 25px;
+	background-color: ghostwhite;
+}
+
+
+h1{
+	font-size: 4rem;
+	text-align: left;
+	font-family: monospace;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size:2rem;
+	text-align: left;
+	font-family: monospace;
 }
