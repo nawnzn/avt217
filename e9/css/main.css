@@ -1,51 +1,87 @@
 *{
 	box-sizing: border-box;
 }
-body{
-	width: 120vw;
-	background-color: lightskyblue;
-}
 #container{
 	width: 120vw;
 	margin-left: -10vw;
+
 }
+
+#pattern1{
+	background-color: lightgrey;
+} 
 #pattern1 .p1-1{
 	width: 50px;
 	height: 100px;
-	background-color: skyblue;
 	float: left;
-	opacity: 0;
 	margin: -5px;
+	margin-bottom: -80px;
 }
 #pattern1 .p1-2{
-	width: 7px;
+	width: 70px;
 	height: 300px;
-	background-color: whitesmoke;
+	background-color: lightcyan;
 	float: left;
-	margin: -5px;
+	margin-bottom: -80px;
+	margin-top: -50px;
+	margin-left: -50px;
 	border: 10px solid black;
 	transform: rotate(45deg);
-	border-radius: 10px;
 }
+
+
+
+
+#pattern2{
+	background-color: lightgrey;
+} 
 #pattern2 .p2-1{
 	width: 50px;
 	height: 50px;
 	background-color: black;
 	float: left;
-	opacity: .8;
-	margin: -5px;
+	margin: -10px;
+	transform: ;
 }
 #pattern2 .p2-2{
 	width: 50px;
 	height: 50px;
-	background-color: skyblue;
+	background-color: lightslategrey;
 	float: left;
-	opacity: .8;
-	margin: -5px;
+	opacity: .5;
+	margin: -20px;
 }
 
 
-	.p3-1{
+
+#pattern3 .p3-1{
+	width: 200px;
+	height: 200px;
+	background-color: lightgrey;
+	float: left;
+	transform: rotate(25deg);
+	margin: 10px;
+}
+#pattern3 .p3-2{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	float: left;
+	transform: rotate(25deg);
+	margin: 10px;
+}
+#pattern3 .p3-3{
+	width: 200px;
+	height: 200px;
+	background-color: lightskyblue;
+	float: left;
+	transform: rotate(25deg);
+	margin: 10px;
+}
+
+
+
+#pattern4 .p4-1{
 	width: 150px;
 	height: 150px;
 	background-color: yellowgreen;
@@ -53,7 +89,7 @@ body{
 	opacity: .8;
 	margin: -5px;
 }
-	.p3-2{
+#pattern4 .p4-2{
 	width: 150px;
 	height: 150px;
 	background-color: hotpink;
@@ -61,11 +97,48 @@ body{
 	opacity: .8;
 	margin: -5px;
 }
-	.p3-3{
+#pattern4 .p4-3{
+	width: 150px;
+	height: 150px;
+	background-color: lightgrey;
+	float: left;
+	opacity: .8;
+	margin: -5px;
+}
+
+
+#pattern5 .p5-1{
+	width: 150px;
+	height: 150px;
+	background-color: yellowgreen;
+	float: left;
+	margin: -5px;
+}
+#pattern5 .p5-2{
+	width: 150px;
+	height: 150px;
+	background-color: hotpink;
+	float: left;
+	margin: -5px;
+}
+#pattern5 .p5-3{
 	width: 150px;
 	height: 150px;
 	background-color: lightskyblue;
 	float: left;
-	opacity: .8;
+	margin: -5px;
+}
+#pattern5 .p5-4{
+	width: 150px;
+	height: 150px;
+	background-color: darkred;
+	float: left;
+	margin: -5px;
+}
+#pattern5 .p5-5{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	float: left;
 	margin: -5px;
 }
