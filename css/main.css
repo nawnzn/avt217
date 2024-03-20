@@ -6,22 +6,25 @@ html {
 }
 body {
 	background-color: ghostwhite;
-	text-align: center;
 	font-family: 'Rubik', sans-serif;
 }
 
 header{
 	width: 75vw;
 	margin: 25px; 
-	background-color: skyblue;
+	background-color: dimgrey;
 }
 
 main {
 	width: 75vw;
 	margin: 25px;
 	background-color: ghostwhite;
+	display: flow-root;
 }
-
+.col {
+	width: 50%;
+	float: left;
+}
 
 h1{
 	font-size: 4rem;
@@ -35,3 +38,35 @@ h2{
 	text-align: left;
 	font-family: monospace;
 }
+
+li{
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+@media screen and (max-width: 1165px) { 
+.col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+}
+}
+
+a:hover, a:active {
+  color: ghostwhite;
+}
+a:link, a:visited {
+	color: darkblue;
+	text-decoration-line: underline; color: black;
+}
+
