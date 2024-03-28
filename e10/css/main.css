@@ -100,15 +100,21 @@ footer{
 /*tennis-court*/
 .court {
   width: 560px;
-  display: flow-root;
   margin: 50px auto;
 }
 .container3{
 	width: 400px;
+	height: 350px;
 	margin: 50px auto;
 }
 .container4{
-	width: 400px;
+	width: 100px;
+	height: 275px;
+	margin: 50px auto;
+}
+.container5{
+	width: 100px;
+	height: 275px;
 	margin: 50px auto;
 }
 .box {
@@ -120,7 +126,7 @@ footer{
 }
 .side {
   width: 50px;
-  height: 205px;
+  height: 275px;
   float: left;
   border: 2px solid white;
   background-color: steelblue;
