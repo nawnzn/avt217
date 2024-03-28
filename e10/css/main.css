@@ -101,35 +101,43 @@ footer{
 .court {
   width: 560px;
   display: flow-root;
-  margin: calc(50vh - 305px) auto;
-  border: 5px solid white;
-  background-color: steelblue;
+  margin: 50px auto;
 }
-.single {
-  width: 300px;
+.container3{
+	width: 400px;
+	margin: 50px auto;
+}
+.container4{
+	width: 400px;
+	margin: 50px auto;
+}
+.box {
+  width: 125px;
+  height: 125px;
   float: left;
-  border: 5px solid white;
   background-color: steelblue;
+  margin: 1px;
 }
 .side {
-  width: 125px;
-  height: 300px;
+  width: 50px;
+  height: 205px;
   float: left;
-  border: 5px solid white;
+  border: 2px solid white;
   background-color: steelblue;
 }
-.back {
-  width: 300px;
-  height: 100px;
+.bottom {
+  width: 255px;
+  height: 75px;
   float: left;
-  border: 5px solid white;
+  border: 2px solid white;
+  margin-top: 130px;
   background-color: steelblue;
 }
-.service {
-  width: 150px;
-  height: 200px;
+.top {
+  width: 255px;
+  height: 75px;
   float: left;
-  border: 5px solid white;
+  border: 2px solid white;
   background-color: steelblue;
 }
 
