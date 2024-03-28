@@ -167,35 +167,35 @@ footer{
 .middle {
   margin: 0 25px;
 }
-.twobythree, .twobytwo {
-  width: calc(50px * 2);
+.rec1 {
+  width: 50px;
+  height: 100px;
   float: left;
+  border: 1px solid whitesmoke;
 }
 .rec2 {
   width: 50px;
   float: left;
 }
-.twobythree-r {
+.rec3 {
+  width: 50px;
+  height: 200px;
+  float: left;
+  border: 1px solid whitesmoke;
+}
+.rec4 {
+  width: 100px;
+  float: left;
+}
+.rec5 {
+  width: 100px;
+  height: 200px;
+  float: left;
+  border: 1px solid whitesmoke;
+}
+.rec6 {
   width: 100px;
   height: 300px;
-  float: left;
-  border: 1px solid whitesmoke;
-}
-.twobytwo-r {
-  width: 100px;
-  height: 200px;
-  float: left;
-  border: 1px solid whitesmoke;
-}
-.onebytwo-r {
-  width: 50px;
-  height: 200px;
-  float: left;
-  border: 1px solid whitesmoke;
-}
-.rec1 {
-  width: 50px;
-  height: 100px;
   float: left;
   border: 1px solid whitesmoke;
 }
