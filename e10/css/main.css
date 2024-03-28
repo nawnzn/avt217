@@ -124,7 +124,7 @@ footer{
   background-color: steelblue;
   margin: 1px;
 }
-.side {
+.left,.right {
   width: 50px;
   height: 275px;
   float: left;
@@ -146,6 +146,7 @@ footer{
   border: 2px solid white;
   background-color: steelblue;
 }
+
 
 
 /*california case*/
